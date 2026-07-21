@@ -1,0 +1,25 @@
+# Streamlit Secrets and local configs
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Datasets and Model weights
+data/
+models/
+*.pkl
+*.bin
+*.csv
+
+# Kaggle private configs
+.kaggle/
+kaggle.json
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
